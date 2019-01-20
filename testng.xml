@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Growl Notification Demo" verbose="10" parallel="false" thread-count="1">
+
+    <test name="Open Step2QA in Google Chrome browser.">
+        <classes>
+            <class name="com.step2qa.GrowlDemo">
+                <methods>
+                    <include name="openStep2QA_chrome"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
